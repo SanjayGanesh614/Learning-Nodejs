@@ -1,0 +1,21 @@
+{
+  "name": "learning-nodejs",
+  "version": "1.0.0",
+  "description": "Just a gaining a skill and want to document the processs",
+  "homepage": "https://github.com/SanjayGanesh614/Learning-Nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/SanjayGanesh614/Learning-Nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjayGanesh614/Learning-Nodejs.git"
+  },
+  "license": "ISC",
+  "author": "Sanjay",
+  "type": "commonjs",
+  "main": "hello.js",
+  "scripts": {
+    "test": "hello",
+    "start": "node hello.js"
+  }
+}
