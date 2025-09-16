@@ -14,12 +14,20 @@ const fs = require("fs");
 //console.log(result);
 
 
+//get current date and append to file   
+fs.appendFileSync("hello.txt", new Date().getDate().toLocaleString());
+
+fs.appendFileSync("hello.txt",'\n New Line added through async\n');
+
 ///ASync read file...  never returns data through variable
 fs.readFile("hello.txt","utf-8",(err, result) => {
     if (err) {
         console.log("Error", err);
+        }else{
+            console.log(result);
+        }
+    })
 
-    }else{
-        console.log(result);
-    }
-})
+
+//fs.copyFileSync("hello.txt","copy.txt");
+//fs.unlinkSync("copy.txt");

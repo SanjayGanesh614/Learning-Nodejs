@@ -1,1 +1,10 @@
-Hi there this is my first async file created using Nodejs
+Hi there this is my first async file created using Nodejs15
+ New Line added through async
+15
+ New Line added through async
+15
+${Date.now()} New Line added through async
+1515
+ New Line added through async
+15
+ New Line added through async
